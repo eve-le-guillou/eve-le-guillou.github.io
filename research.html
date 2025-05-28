@@ -29,6 +29,10 @@ body {
   background-color: rgb(24,26,27);
   color: rgb(184, 184, 184);
 }
+table {
+  border-collapse: separate; 
+  border-spacing: 1em;
+}
 </style>
 </head>
 <body>
@@ -104,11 +108,22 @@ body {
                 <h3 id="research">Research</h3>
                 <table>
                   <tbody>
+                   <tr>
+                      <td width="30%">
+                      <img src="img/dns_persistence_diagram.png" width="100%" style="float:left; padding:10px" />
+                      </td>
+                      <td width="67%">
+                        <p class="article_title"><strong>Distributed Discrete Morse Sandwich: Efficient Computation of Persistence Diagrams for Massive Scalar Data</strong></p>
+                        <p>Eve Le Guillou, Pierre Fortin, Julien Tierny</p>
+                        <p>Submitted to IEEE Transactions on Parallel and Distributed Systems in 2025.</p>
+                        <a href="https://arxiv.org/abs/2505.21266">Paper</a> &emsp; <a href="https://github.com/eve-le-guillou/DDMS-example"> Code</a>
+                      </td>
+                    </tr>   
+                    <tr><td width="30%"></td></tr>                  
                     <tr>
                       <td width="30%">
                       <img src="img/ttk_is_getting_mpi_ready.jpg" width="100%" style="float:left; padding:10px" />
                       </td>
-                      <td width="2%"></td>
                       <td width="67%">
                         <p class="article_title"><strong>TTK is Getting MPI-Ready</strong></p>
                         <p>Eve Le Guillou, Michael Will, Pierre Guillou, Jonas Lukasczyk, Pierre Fortin, Christoph Garth, Julien Tierny</p>
@@ -121,7 +136,6 @@ body {
                     <td width="25%">
                     <img src="img/lammps_paper.png" width="100%" style="float:left; padding:10px" />
                     </td>
-                    <td width="2%"></td>
                     <td width="77%">
                       <p class="article_title"><strong>How to Modify LAMMPS: From the Prospective of a Particle Method Researcher</strong></p>
                       <p>Albano A, Le Guillou E, Danzé A, Moulitsas I, Sahputra IH, Rahmat A, Duque-Daza CA, Shang X, Ching Ng K, Ariane M, et al</p>
